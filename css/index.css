@@ -1,0 +1,91 @@
+/* Copyright Mixed Company 2014 */
+
+body {
+	background: black;
+}
+
+/* Headers and footers */
+
+.header {
+	margin-bottom: 10px;
+}
+
+.header .logo-container {
+	position: relative;
+	text-align: center;
+}
+
+.header .nav-container ul.nav-links {
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+
+.header .nav-container ul.nav-links li{
+	border: solid 1px gray;
+}
+
+/* Drop-down Menu */
+
+.top-bar .title-area {
+	margin: 4px 0px;
+	border-radius: 4px;
+	background-color: #f3eedf;
+}
+
+.top-bar.expanded .title-area {
+	background: #f3eedf;
+}
+
+.top-bar-section ul li {
+	background: #e6dbba;
+}
+
+.web-container {
+	margin: 6px;
+	padding: 7px;
+	border-radius: 7px;
+	background-color: #e6dbba;
+}
+
+.top-bar-section ul li {
+	text-align: center;
+	list-style-type: none;
+	margin: 2px;
+}
+
+.top-bar-section ul li > a {
+	color: #800000;
+	font-style: bold;
+	padding: 5px 0px;
+}
+
+.top-bar-section ul li.active > a {
+	color: black;
+	background-color: #f3eedf;
+}
+
+.top-bar-section .dropdown li.parent-link a {
+	color: #800000;
+}
+
+.top-bar-section .dropdown li.title h5 a {
+	color: black;
+}
+
+/* Sections */
+
+.content-header {
+	text-align: center;
+	background-color: #f3eedf;
+	margin: 10px 0px;
+	padding: 5px 0px;
+	font-family: 'Merriweather', serif;
+}
+
+.content-body {
+	padding: 5px;
+	font-size: 13px;
+}
