@@ -4,6 +4,10 @@ body {
 	background: black;
 }
 
+p {
+	margin-bottom: 5px;
+}
+
 /* Headers and footers */
 
 .header {
@@ -86,6 +90,23 @@ body {
 }
 
 .content-body {
-	padding: 5px;
+	padding: 7px;
 	font-size: 13px;
+}
+
+.audition-list {
+	font-size: 12px;
+	padding: 10px;
+}
+
+.list-title {
+	font-weight: bold;
+}
+
+.booking-rates {
+	text-align: center;
+}
+
+.small {
+	font-size: 10px;
 }
