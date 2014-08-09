@@ -40,9 +40,8 @@ function populateMemberGrid(gridId, memberXmlPath) {
 		var modalId = name.concat("Modal");
 		var modal = makeMemberModal(modalId, memObj);
 		// Link modal to page
-		var photo = document.createElement("a");
-		photo.setAttribute("href", memObj.photo);
-		photo.innerHTML = memObj.name;
+		var photo = document.createElement("img");
+		photo.setAttribute("src", memObj.photo);
 		gridObjects.push(photo);
 	}
 
