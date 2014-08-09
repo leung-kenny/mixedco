@@ -69,7 +69,7 @@ function makeMemberModal(modalId, member) {
 	modal.setAttribute("id", modalId);
 	modal.setAttribute("class", "reveal-modal");
 
-	var _photo = "<img src=" + member.photo + "/>";
+	var _photo = "<img src=" + member.photo + "></img>";
 	var _name = "<h4>" + name + " " + member.gradYear + "</h4>";
 	var _voice_part = "<h5>" + member.voicePart + "</h5>";
 	var _content = "<div>" + 
