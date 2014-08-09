@@ -28,7 +28,7 @@ function populateMemberGrid(gridId, memberXmlPath) {
 		var member = memberNodes[i];
 		memObj["name"] = member.getElementsByTagName("name")[0].innerHTML;
 		memObj["gradYear"] = member.getElementsByTagName("gradYear")[0].innerHTML;
-		memObj["photo"] = "../".concat(member.getElementsByTagName("images")[0].getElementsByTagName("square")[0].innerHTML);
+		memObj["photo"] = member.getElementsByTagName("images")[0].getElementsByTagName("square")[0].innerHTML;
 		memObj["voicePart"] = member.getElementsByTagName("voicePart")[0].innerHTML;
 		memObj["major"] = member.getElementsByTagName("major")[0].innerHTML;
 		memObj["hometown"] = member.getElementsByTagName("hometown")[0].innerHTML;
