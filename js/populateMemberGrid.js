@@ -5,6 +5,7 @@
  * displaying their biography. Assumes ZURB Foundation grid
  * elements (row, columns).
  */
+
 function populateMemberGrid(gridId, memberXmlPath) {
 	var grid = document.getElementById(gridId);
 
@@ -82,20 +83,26 @@ function makeMemberModal(modalId, member) {
 	}
 	_songs.concat("</ol>");
 
-	modal.innerHTML = /*_photo +*/ _name + _voice_part + _content + _songs;
+	modal.innerHTML = _photo + _name + _voice_part + _content + _songs;
 	return modal;
 }
 
+var kNumElementsPerRow = 2;
 function addToGrid(grid, arr) {
-	console.log(arr);
+	var row = createNewRow();
 	for (var i = 0; i < arr.length; i++) {
-		row = document.createElement("div");
-		row.setAttribute("class", "row");
 		row.appendChild(arr[i]);
-		grid.appendChild(row);
+		if (i % 3 == 1) {
+			grid.append(row);
+			row = createNewRow();
+		}
 	}
 }
 
+function createNewRow() {
+	var row = document.createElement("div");
+	row.setAttribute("class", "row");
+}
 
 
 
