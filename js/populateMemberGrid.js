@@ -25,7 +25,7 @@ function populateMemberGrid(gridId, memberXmlPath) {
 		var memObj = new Object();
 
 		// Collect data about member
-		var member = membersNodes[i];
+		var member = memberNodes[i];
 		memObj.setAttribute("name", member.getElementsByTagName("name")[0].innerHTML);
 		memObj.setAttribute("gradYear", member.getElementsByTagName("gradYear")[0].innerHTML);
 		memObj.setAttribute("photo", member.getElementsByTagName("images")[0].getElementsByTagName("square")[0].innerHTML);
