@@ -26,27 +26,27 @@ function populateMemberGrid(gridId, memberXmlPath) {
 
 		// Collect data about member
 		var member = memberNodes[i];
-		memObj.setAttribute("name", member.getElementsByTagName("name")[0].innerHTML);
-		memObj.setAttribute("gradYear", member.getElementsByTagName("gradYear")[0].innerHTML);
-		memObj.setAttribute("photo", member.getElementsByTagName("images")[0].getElementsByTagName("square")[0].innerHTML);
-		memObj.setAttribute("voicePart", member.getElementsByTagName("voicePart")[0].innerHTML);
-		memObj.setAttribute("major", member.getElementsByTagName("major")[0].innerHTML);
-		memObj.setAttribute("hometown", member.getElementsByTagName("hometown")[0].innerHTML);
-		memObj.setAttribute("bio", member.getElementsByTagName("bio")[0].innerHTML);
+		memObj["name"] = member.getElementsByTagName("name")[0].innerHTML;
+		memObj["gradYear"] = member.getElementsByTagName("gradYear")[0].innerHTML;
+		memObj["photo"] = member.getElementsByTagName("images")[0].getElementsByTagName("square")[0].innerHTML;
+		memObj["voicePart"] = member.getElementsByTagName("voicePart")[0].innerHTML;
+		memObj["major"] = member.getElementsByTagName("major")[0].innerHTML;
+		memObj["hometown"] = member.getElementsByTagName("hometown")[0].innerHTML;
+		memObj["bio"] = member.getElementsByTagName("bio")[0].innerHTML;
 		var solos = member.getElementsByTagName("solos")[0].getElementsByTagName("song");
-		memObj.setAttribute("songs", solos.map(function(x) { return(x.innerHTML); }));
+		memObj["songs"] = Array.prototype.slice.call(solos).map( function(node) { return(node.innerHTML); });
 
 		// Build modal
 		var modalId = name.concat("Modal");
-		var modal = makeMemberModal(modalClass, memObj);
-		
+		var modal = makeMemberModal(modalId, memObj);
 		// Link modal to page
-		var photo = document.createElement("img");
-		photo.setAttribute("src", memObj.photo);
-		gridObjects.push(photos);
+		var photo = document.createElement("a");
+		photo.setAttribute("href", memObj.photo);
+		photo.innerHTML = memObj.name;
+		gridObjects.push(photo);
 	}
 
-	addToGrid(gridObjects);
+	addToGrid(grid, gridObjects);
 
 }
 
@@ -83,8 +83,20 @@ function makeMemberModal(modalId, member) {
 	}
 	_songs.concat("</ol>");
 
-	modal.innerHTML = _photo + _name + _voice_part + _content + _songs;
+	modal.innerHTML = /*_photo +*/ _name + _voice_part + _content + _songs;
 	return modal;
 }
+
+function addToGrid(grid, arr) {
+	console.log(arr);
+	for (var i = 0; i < arr.length; i++) {
+		row = document.createElement("div");
+		row.setAttribute("class", "row");
+		row.appendChild(arr[i]);
+		grid.appendChild(row);
+	}
+}
+
+
 
 
