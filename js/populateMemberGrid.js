@@ -93,7 +93,7 @@ function addToGrid(grid, arr) {
 	for (var i = 0; i < arr.length; i++) {
 		row.appendChild(arr[i]);
 		if (i % 3 == 1) {
-			grid.append(row);
+			grid.appendChild(row);
 			row = createNewRow();
 		}
 	}
