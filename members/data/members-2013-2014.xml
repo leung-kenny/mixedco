@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roster>
+	
+	<!-- Kendall Weierich '16 -->
+	<member>
+		<name>Kendall Weierich</name>
+		<gradYear>'16</gradYear>
+		<images>
+			<square>/images/members/kendall-weierich/kendall-head.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Soprano</voicePart>
+		<major>Biology</major>
+		<hometown>West Linn, Oregon</hometown>
+		<auditionSong>"Lullaby of Birdland" by Ella Fitzgerald</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>"Cats and Coke!"</quote>
+		<bio>Kendall is a junior from West Linn, OR. She has been a Soprano in the MC family for two years, serving as the Assistant Director and Business Manager her sophomore year. She's hardcore addicted to Diet Coke and will never be seen at rehearsal without one!</bio>
+		<solos>
+			<song>Somebody to Love ('12 - '13)</song>
+			<song>I Will Follow You Into the Dark ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Virginia Steindorf '16 -->
+	<member>
+		<name>Virginia Steindorf</name>
+		<gradYear>'16</gradYear>
+		<images>
+			<square>/images/members/virginia-steindorf/val-head.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Soprano</voicePart>
+		<major>Symbolic Systems</major>
+		<hometown>Atlanta, Georgia</hometown>
+		<auditionSong>"Forget You" by Cee Lo Green</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>Virginia (who also goes by Val, or the Virginal Queen Val) is a junior. She has been a soprano in the group for two years and the president last year, my sophomore year. Her third favorite color doesn't matter, Eric Hermann, but her spirit animal is definitely a mother goose. Mixed Co or Die ladies and gents, and always remember: sops on top.</bio>
+		<solos>
+			<song>New Shoes ('12 - '13)</song>
+			<song>Somebody to Love ('13 - '14)</song>
+			<song>Mercy ('13 - '14)</song>
+			<song>Howl ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Emma Hutchinson '17 -->
+	<member>
+		<name>Emma Hutchinson</name>
+		<gradYear>'17</gradYear>
+		<images>
+			<square>/images/members/member-no-picture.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Soprano</voicePart>
+		<major>Earth Systems</major>
+		<hometown>Boulder, Colorado</hometown>
+		<auditionSong>_</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>"Make it nasty!"</quote>
+		<bio>Emma is a sophomore studying Earth Systems. She loves music, has played the clarinet for 10 years, and loves the opportunity to sing in college with Mixed Company. She also loves traveling, learning and talking about the environment, and drinking hot chocolate.</bio>
+		<solos>
+			<song>Somebody to Love ('13-'14)</song>
+			<song>Howl ('13-'14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Leena Yin '17 -->
+	<member>
+		<name>Leena Yin</name>
+		<gradYear>'17</gradYear>
+		<images>
+			<square>/images/members/member-no-picture.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Soprano</voicePart>
+		<major>Undeclared</major>
+		<hometown>Fremont, California</hometown>
+		<auditionSong>"Just Give Me a Reason" by Pink</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>Leena Yin, class of '17, is a soprano from Fremont, California. An avid musical theater geek who majors in extracurriculars, if she's not in rehearsal with Mixed Co, she's probably in rehearsal somewhere else, or walking around campus belting "Let It Go" from the top of her lungs. Her third favorite color is mint.</bio>
+		<solos>
+			<song>Royals ('13 - '14)</song>
+			<song>Say Something ('13 - '14)</song>
+			<song>Taylor Swift Medley ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Laine Bruzek '16 -->
+	<member>
+		<name>Laine Bruzek</name>
+		<gradYear>'16</gradYear>
+		<images>
+			<square>/images/members/laine-bruzek/laine-head.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Alto</voicePart>
+		<major>Product Design</major>
+		<hometown>Wheaton, Illinois</hometown>
+		<auditionSong>"Penny Lane" by The Beatles</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>Laine, an alto and a junior in Product Design, served as Financial Officer and Performance Manager of 2013-14 Co. Being part of Mixed Co has proved to be one of the best decisions of her life, among buying American flag garter leggings and not cutting her own bangs in the 7th grade. She's originally from Chicago and unashamedly enjoys her Midwestern accent, daily naps, and Taco Bell.</bio>
+		<solos>
+			<song>Counting Love ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Maggie Goulder '14 -->
+	<member>
+		<name>Maggie Goulder</name>
+		<gradYear>'14</gradYear>
+		<images>
+			<square>/images/members/maggie-goulder/maggie-head.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Alto</voicePart>
+		<major>Computer Science</major>
+		<hometown>Palo Alto, California</hometown>
+		<auditionSong>"Turn Me On" by Norah Jones</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>_</bio>
+		<solos>
+			<song>Say Something ('13 - '14)</song>
+			<song>Taylor Swift Medley ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Abby Brooke '17 -->
+	<member>
+		<name>Abby Brooke</name>
+		<gradYear>'17</gradYear>
+		<images>
+			<square>/images/members/member-no-picture.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Alto</voicePart>
+		<major>Undeclared</major>
+		<hometown>Weston, Massachusetts</hometown>
+		<auditionSong>"You and I" by Ingrid Michaelson</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>Abby, a sophomore from Boston, is thrilled to be returning for her second year in Mixed Co as Performance Manager and Financial Officer, and only moderately concerned that someone thought it was a good idea to put her in charge of the money. Although she auditioned as a soprano, Abby sings alto in the group, forcing her to fall to her knees and scream to the darkening skies, "WHO AM I?!" Abby spends her free time watching Netflix with her roommate and explaining to people what she is going to do with an English degree.</bio>
+		<solos>
+		    <song>Mercy ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Ellie Greenhouse '16 -->
+	<member>
+		<name>Ellie Greenhouse</name>
+		<gradYear>'16</gradYear>
+		<images>
+			<square>/images/members/member-no-picture.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Alto</voicePart>
+		<major>Undeclared</major>
+		<hometown>Rye, New York</hometown>
+		<auditionSong>"I Can't Make You Love Me" by Bonnie Raitt</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>_</bio>
+		<solos>
+			<song>Royals ('13 - '14)</song>
+            <song>Counting Love ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Nate Nunez '15 -->
+	<member>
+		<name>Nate Nunez</name>
+		<gradYear>'15</gradYear>
+		<images>
+			<square>/images/members/nate-nunez/member-nate-nunez.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Tenor, Percussion</voicePart>
+		<major>Computer Science</major>
+		<hometown>Daly City, California</hometown>
+		<auditionSong>"Lean on Me" by Bill Withers</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>If you're going to sing, sing loud!</quote>
+		<bio>_</bio>
+		<solos>
+			<song>New Shoes ('11 - '12)</song>
+			<song>Somebody to Love ('11 -'12, '13 - '14)</song>
+			<song>Heart of the Matter ('12 - '13)</song>
+			<song>It's Time ('12 - '13)</song>
+			<song>Nothing Ever Hurt Like You ('13 - '14)</song>
+			<song>Counting Love ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>Mercy</song>
+			<song>If You're Out There</song>
+			<song>Nothing Ever Hurt Like You</song>
+			<song>Counting Love</song>
+			<song>Taylor Swift Medley</song>
+		</arrangements>
+	</member>
+	
+	<!-- Kenny Leung '16 -->
+	<member>
+		<name>Kenny Leung</name>
+		<gradYear>'16</gradYear>
+		<images>
+			<square>/images/members/member-no-picture.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Tenor</voicePart>
+		<major>Computer Science, Philosophy</major>
+		<hometown>San Francisco, California</hometown>
+		<auditionSong>"This Love" by Maroon 5</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>Kenny is a junior majoring in Computer Science and Philosophy, and he is serving as Business Manager and Webmaster for the 2014-15 year. When he is not bouldering the History Corner of the Main Quad, he can be found making guacamole or seeking quality, affordable avocados. He hopes to retire in a condo atop the lush mountains of Hawaii, inspired by Spring Tour 2014, where he met a few senior citizens who have chosen this way of life and seem to be enjoying it.</bio>
+		<solos>
+			<song>Too Close ('13 - '14)</song>
+			<song>If You're Out There ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Tim Hegedus '17 -->
+	<member>
+		<name>Tim Hegedus</name>
+		<gradYear>'17</gradYear>
+		<images>
+			<square>/images/members/member-no-picture.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Tenor, Percussion</voicePart>
+		<major>Political Science, African &amp; African-American Studies</major>
+		<hometown>Newark, Delaware</hometown>
+		<auditionSong>"Pompeii" by Bastille</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>_</bio>
+		<solos>
+			<song>Somebody to Love ('13 - '14)</song>
+			<song>Royals ('13 - '14)</song>
+			<song>Say Something ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>Counting Love</song>
+		</arrangements>
+	</member>
+	
+	<!-- John Welch '17 -->
+	<member>
+		<name>John Welch</name>
+		<gradYear>'17</gradYear>
+		<images>
+			<square>/images/members/member-no-picture.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Tenor</voicePart>
+		<major>Undeclared</major>
+		<hometown>Atherton, California</hometown>
+		<auditionSong>"Chasing Cars" by Snow Patrol</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>John is a pretty average human. He is a white male tenor getting a degree in the engineering department (see what I mean by average). The one unique thing about him is that he is semi-tumblr famous, so that explains a lot of his strange humor and odd references.</bio>
+		<solos>
+			<song>Taylor Swift Medley ('13 - '14)</song>
+			<song>Say Something ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Ben Alpers '16 -->
+	<member>
+		<name>Ben Alpers</name>
+		<gradYear>'16</gradYear>
+		<images>
+			<square>/images/members/ben-alpers/ben-head.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Tenor</voicePart>
+		<major>Biomechanical Engineering</major>
+		<hometown>Davis, California</hometown>
+		<auditionSong>"L.O.V.E." by Nat King Cole</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>A bass who also occasionally sings tenor, Ben is the definition of versatile. A biomechanical engineer on the outside but a product designer on the inside, he plans on redesigning the world after he graduates. His gift for taking charming LinkedIn photos makes him a valuable asset to any business. Just hire him already!</bio>
+		<solos>
+			<song>Somebody to Love ('12 - '13)</song>
+			<song>Nothing Ever Hurt Like You ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Andrew Parlier '15 -->
+	<member>
+		<name>Andrew Parlier</name>
+		<gradYear>'15</gradYear>
+		<images>
+			<square>/images/members/andrew-parlier/andrew-head.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Bass, Percussion</voicePart>
+		<major>Mechanical Engineering</major>
+		<hometown>Boulder, Colorado</hometown>
+		<auditionSong>"Time of My Life" by Bill Medley &amp; Jennifer Warnes</auditionSong>
+		<favoriteMusicalArtists>Muse, Bill Withers</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>_</bio>
+		<solos>
+			<song>And So It Goes ('11 - '12)</song>
+			<song>Royals ('13 - '14)</song>
+			<song>Taylor Swift Medley ('13 - '14)</song>
+			<song>Counting Love ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>Royals</song>
+		</arrangements>
+	</member>
+	
+	<!-- Kent Blake '14 -->
+	<member>
+		<name>Kent Blake</name>
+		<gradYear>'14</gradYear>
+		<images>
+			<square>/images/members/kent-blake/member-kent-blake.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Bass</voicePart>
+		<major>UEconomics and Psychology</major>
+		<hometown>Plymouth, MN</hometown>
+		<auditionSong>"Anthem" - Chess</auditionSong>
+		<favoriteMusicalArtists>Ingrid Michaelson, John Mayer, Jason Mraz, Michael Buble, Norah Jones</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>Kent is a bass from Minneapolis, Minnesota. At age 22, he proudly fills out the upper end of Mixed Co’s age distribution.  When he’s not hanging out with his geriatric 23-year-old friends or telling stories about the good old days, he’s usually smiling politely and pretending like he knows what’s going on.</bio>
+		<solos>
+			<song>If You're Out There ('13 - '14)</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+	<!-- Gus Wellin '15 -->
+	<member>
+		<name>Gus Wellin</name>
+		<gradYear>'15</gradYear>
+		<images>
+			<square>/images/members/member-no-picture.png</square>
+			<left>/images/members/member-no-picture-left.png</left>
+			<top>/images/members/member-no-picture-middle.png</top>
+			<bottom>/images/members/member-no-picture-middle.png</bottom>
+			<right>/images/members/member-no-picture-right.png</right>
+		</images>
+		<voicePart>Bass</voicePart>
+		<major>Undeclared</major>
+		<hometown>South Portland, Maine</hometown>
+		<auditionSong>_</auditionSong>
+		<favoriteMusicalArtists>_</favoriteMusicalArtists>
+		<quote>_</quote>
+		<bio>_</bio>
+		<solos>
+			<song>_</song>
+		</solos>
+		<arrangements>
+			<song>_</song>
+		</arrangements>
+	</member>
+	
+</roster>
