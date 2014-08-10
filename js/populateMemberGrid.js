@@ -42,6 +42,7 @@ function populateMemberGrid(gridId, memberXmlPath) {
 		var modal = makeMemberModal(modalId, memObj);
 		// Link modal to page
 		var photo = document.createElement("img");
+		photo.setAttribute("class", "lazy"); // lazy loading for improved performance
 		photo.setAttribute("src", memObj.photo);
 		gridObjects.push(photo);
 	}
