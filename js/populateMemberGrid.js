@@ -12,6 +12,7 @@ function populateMemberGrid(gridId, memberXmlPath) {
 	/* Read in XML file */
 	xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", memberXmlPath,false);
+	xmlhttp.setRequestHeader("Content-Type","application/xml");
 	xmlhttp.send();
 
 	xmlhttp.onreadystatechange = function() {
@@ -97,12 +98,12 @@ function addToGrid(grid, arr) {
 	console.log(arr);
 	var row = createNewRow();
 	for (var i = 0; i < arr.length; i++) {
-		arr[i].setAttribute("class", "small-"+ parseInt(12/kNumElementsPerRow)  + " columns");
-		row.appendChild(arr[i]);
 		if (i % 3 == 1) {
 			grid.appendChild(row);
 			row = createNewRow();
 		}
+		arr[i].setAttribute("class", "small-"+ parseInt(12/kNumElementsPerRow)  + " columns");
+		row.appendChild(arr[i]);
 	}
 }
 
