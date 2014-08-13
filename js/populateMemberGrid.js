@@ -11,12 +11,9 @@ function populateMemberGrid(gridId, memberXmlPath) {
 
 	/* Read in XML file */
 	xmlhttp = new XMLHttpRequest();
-<<<<<<< HEAD
 	xmlhttp.open("GET", memberXmlPath,false);
 	xmlhttp.setRequestHeader("Content-Type","application/xml");
-=======
 	xmlhttp.open("GET", memberXmlPath,true);
->>>>>>> 55cc7a97386f033d32bc935d103ebb32e579f52f
 	xmlhttp.send();
 
 	xmlhttp.onreadystatechange = function() {
@@ -99,10 +96,9 @@ function makeMemberModal(modalId, member) {
 
 var kNumElementsPerRow = 3;
 function addToGrid(grid, arr) {
-	console.log(arr);
 	var row = createNewRow();
 	for (var i = 0; i < arr.length; i++) {
-		if (i % 3 == 1) {
+		if (i % kNumElementsPerRow == 0 && i > 0) {
 			grid.appendChild(row);
 			row = createNewRow();
 		}
