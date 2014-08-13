@@ -11,7 +11,7 @@ function populateMemberGrid(gridId, memberXmlPath) {
 
 	/* Read in XML file */
 	xmlhttp = new XMLHttpRequest();
-	xmlhttp.open("GET", memberXmlPath,false);
+	xmlhttp.open("GET", memberXmlPath,true);
 	xmlhttp.send();
 
 	xmlhttp.onreadystatechange = function() {
