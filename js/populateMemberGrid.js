@@ -13,41 +13,45 @@ function populateMemberGrid(gridId, memberXmlPath) {
 	xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", memberXmlPath,false);
 	xmlhttp.send();
-	xmlDoc = xmlhttp.responseXML; 
 
-	var roster = xmlDoc.getElementsByTagName("roster")[0];
-	var memberNodes = roster.getElementsByTagName("member"); // TODO alpha-sort
-	var gridObjects = new Array();
+	xmlhttp.onreadystatechange = function() {
 
-	/* Create modal for each member and attach to grid */
-	for (var i = 0; i < memberNodes.length; i++) {
+		xmlDoc = xmlhttp.responseXML;
 
-		// Initialize member object
-		var memObj = new Object();
+		var roster = xmlDoc.getElementsByTagName("roster")[0];
+		var memberNodes = roster.getElementsByTagName("member"); // TODO alpha-sort
+		var gridObjects = new Array();
 
-		// Collect data about member
-		var member = memberNodes[i];
-		memObj["name"] = member.getElementsByTagName("name")[0].innerHTML;
-		memObj["gradYear"] = member.getElementsByTagName("gradYear")[0].innerHTML;
-		memObj["photo"] = member.getElementsByTagName("images")[0].getElementsByTagName("square")[0].innerHTML;
-		memObj["voicePart"] = member.getElementsByTagName("voicePart")[0].innerHTML;
-		memObj["major"] = member.getElementsByTagName("major")[0].innerHTML;
-		memObj["hometown"] = member.getElementsByTagName("hometown")[0].innerHTML;
-		memObj["bio"] = member.getElementsByTagName("bio")[0].innerHTML;
-		var solos = member.getElementsByTagName("solos")[0].getElementsByTagName("song");
-		memObj["songs"] = Array.prototype.slice.call(solos).map( function(node) { return(node.innerHTML); });
+		/* Create modal for each member and attach to grid */
+		for (var i = 0; i < memberNodes.length; i++) {
 
-		// Build modal
-		var modalId = name.concat("Modal");
-		var modal = makeMemberModal(modalId, memObj);
-		// Link modal to page
-		var photo = document.createElement("img");
-		photo.setAttribute("class", "lazy"); // lazy loading for improved performance
-		photo.setAttribute("src", memObj.photo);
-		gridObjects.push(photo);
+			// Initialize member object
+			var memObj = new Object();
+
+			// Collect data about member
+			var member = memberNodes[i];
+			memObj["name"] = member.getElementsByTagName("name")[0].innerHTML;
+			memObj["gradYear"] = member.getElementsByTagName("gradYear")[0].innerHTML;
+			memObj["photo"] = member.getElementsByTagName("images")[0].getElementsByTagName("square")[0].innerHTML;
+			memObj["voicePart"] = member.getElementsByTagName("voicePart")[0].innerHTML;
+			memObj["major"] = member.getElementsByTagName("major")[0].innerHTML;
+			memObj["hometown"] = member.getElementsByTagName("hometown")[0].innerHTML;
+			memObj["bio"] = member.getElementsByTagName("bio")[0].innerHTML;
+			var solos = member.getElementsByTagName("solos")[0].getElementsByTagName("song");
+			memObj["songs"] = Array.prototype.slice.call(solos).map( function(node) { return(node.innerHTML); });
+
+			// Build modal
+			var modalId = name.concat("Modal");
+			var modal = makeMemberModal(modalId, memObj);
+			// Link modal to page
+			var photo = document.createElement("img");
+			photo.setAttribute("class", "lazy"); // lazy loading for improved performance
+			photo.setAttribute("src", memObj.photo);
+			gridObjects.push(photo);
+		}
+
+		addToGrid(grid, gridObjects);
 	}
-
-	addToGrid(grid, gridObjects);
 
 }
 
