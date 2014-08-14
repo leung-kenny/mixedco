@@ -31,6 +31,10 @@ p {
 	border: solid 1px gray;
 }
 
+#preload {
+	display: none;
+}
+
 /* Drop-down Menu */
 
 .top-bar .title-area {
