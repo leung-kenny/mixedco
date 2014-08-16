@@ -55,11 +55,7 @@ function populateMemberGrid(gridId, memberXmlPath) {
 			var link = document.createElement("a");
 			link.setAttribute("href", "#");
 			link.setAttribute("data-reveal-id", modalId);
-
-			// Open reveal on click
-			$('a#modalId').trigger('click');
 			link.appendChild(photo)
-
 			gridObjects.push(link);
 		}
 
