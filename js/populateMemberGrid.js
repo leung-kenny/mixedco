@@ -46,13 +46,20 @@ function populateMemberGrid(gridId, memberXmlPath) {
 			var modalId = name.concat("Modal");
 			var modal = makeMemberModal(modalId, memObj);
 
-			$('a#modalId').trigger('click');
-
 			// Link modal to page
 			var photo = document.createElement("img");
 			photo.setAttribute("class", "lazy"); // lazy loading for improved performance
 			photo.setAttribute("src", memObj.photo);
-			gridObjects.push(photo);
+
+			var link = document.createElement("a");
+			link.setAttribute("href", "#");
+			link.setAttribute("data-reveal-id", modalId);
+
+			// Open reveal on click
+			$('a#modalId').trigger('click');
+			link.appendChild(photo)
+
+			gridObjects.push(link);
 		}
 
 		addToGrid(grid, gridObjects);
@@ -75,7 +82,7 @@ function populateMemberGrid(gridId, memberXmlPath) {
  */
 
 function makeMemberModal(modalId, member) {
-	modal = document.createElement("a");
+	modal = document.createElement("div");
 	modal.setAttribute("id", modalId);
 	modal.setAttribute("class", "reveal-modal");
 
