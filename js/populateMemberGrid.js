@@ -45,6 +45,7 @@ function populateMemberGrid(gridId, memberXmlPath) {
 			// Build modal
 			var modalId = name.concat("Modal");
 			var modal = makeMemberModal(modalId, memObj);
+			document.appendChild(modal);
 
 			// Link modal to page
 			var photo = document.createElement("img");
