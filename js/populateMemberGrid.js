@@ -49,12 +49,14 @@ function populateMemberGrid(gridId, memberXmlPath) {
 
 			// Link modal to page
 			var photo = document.createElement("img");
-			photo.setAttribute("class", "lazy"); // lazy loading for improved performance
 			photo.setAttribute("src", memObj.photo);
 
 			var link = document.createElement("a");
 			link.setAttribute("href", "#");
 			link.setAttribute("data-reveal-id", modalId);
+
+			link.onclick = $('#Kendall-WeierichModal').foundation('reveal', 'open');
+
 			link.appendChild(photo)
 			gridObjects.push(link);
 		}
