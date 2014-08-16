@@ -43,7 +43,7 @@ function populateMemberGrid(gridId, memberXmlPath) {
 			memObj["songs"] = Array.prototype.slice.call(solos).map( function(node) { return(node.innerHTML); });
 
 			// Build modal
-			var modalId = memObj["name"].concat("Modal");
+			var modalId = memObj["name"].concat("Modal").replace(" ", "-");
 			var modal = makeMemberModal(modalId, memObj);
 			document.body.appendChild(modal);
 
