@@ -45,6 +45,9 @@ function populateMemberGrid(gridId, memberXmlPath) {
 			// Build modal
 			var modalId = name.concat("Modal");
 			var modal = makeMemberModal(modalId, memObj);
+
+			$('a#modalId').trigger('click');
+
 			// Link modal to page
 			var photo = document.createElement("img");
 			photo.setAttribute("class", "lazy"); // lazy loading for improved performance
@@ -72,7 +75,7 @@ function populateMemberGrid(gridId, memberXmlPath) {
  */
 
 function makeMemberModal(modalId, member) {
-	modal = document.createElement("div");
+	modal = document.createElement("a");
 	modal.setAttribute("id", modalId);
 	modal.setAttribute("class", "reveal-modal");
 
