@@ -41,7 +41,7 @@ function buildMemberObject(data) {
 	// add member data
 	member["name"] = data.find("name").text();
 	member["gradYear"] = data.find("gradYear").text();
-	member["photo"] = data.find("images").find("square").text();
+	member["photo"] = data.find("images").find("left").text();
 	member["voicePart"] = data.find("voicePart").text();
 	member["major"] = data.find("major").text();
 	member["hometown"] = data.find("hometown").text();
