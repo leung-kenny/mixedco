@@ -62,7 +62,7 @@
 		<name>Emma Hutchinson</name>
 		<gradYear>'17</gradYear>
 		<images>
-			<square>/images/members/member-no-picture.png</square>
+			<square>/images/members/emma-hutchinson/emma-head.jpg</square>
 			<left>/images/members/member-no-picture-left.png</left>
 			<top>/images/members/member-no-picture-middle.png</top>
 			<bottom>/images/members/member-no-picture-middle.png</bottom>
@@ -89,7 +89,7 @@
 		<name>Leena Yin</name>
 		<gradYear>'17</gradYear>
 		<images>
-			<square>/images/members/member-no-picture.png</square>
+			<square>/images/members/leena-yin/leena-head.jpg</square>
 			<left>/images/members/member-no-picture-left.png</left>
 			<top>/images/members/member-no-picture-middle.png</top>
 			<bottom>/images/members/member-no-picture-middle.png</bottom>
@@ -170,7 +170,7 @@
 		<name>Abby Brooke</name>
 		<gradYear>'17</gradYear>
 		<images>
-			<square>/images/members/member-no-picture.png</square>
+			<square>/images/members/abby-brooke/abby-head.jpg</square>
 			<left>/images/members/member-no-picture-left.png</left>
 			<top>/images/members/member-no-picture-middle.png</top>
 			<bottom>/images/members/member-no-picture-middle.png</bottom>
@@ -196,7 +196,7 @@
 		<name>Ellie Greenhouse</name>
 		<gradYear>'16</gradYear>
 		<images>
-			<square>/images/members/member-no-picture.png</square>
+			<square>/images/members/ellie-greenhouse/ellie-head.jpg</square>
 			<left>/images/members/member-no-picture-left.png</left>
 			<top>/images/members/member-no-picture-middle.png</top>
 			<bottom>/images/members/member-no-picture-middle.png</bottom>
@@ -258,7 +258,7 @@
 		<name>Kenny Leung</name>
 		<gradYear>'16</gradYear>
 		<images>
-			<square>/images/members/member-no-picture.png</square>
+			<square>/images/members/kenny-leung/kenny-head.jpg</square>
 			<left>/images/members/member-no-picture-left.png</left>
 			<top>/images/members/member-no-picture-middle.png</top>
 			<bottom>/images/members/member-no-picture-middle.png</bottom>
@@ -270,7 +270,8 @@
 		<auditionSong>"This Love" by Maroon 5</auditionSong>
 		<favoriteMusicalArtists>_</favoriteMusicalArtists>
 		<quote>_</quote>
-		<bio>Kenny is a junior majoring in Computer Science and Philosophy, and he is serving as Business Manager and Webmaster for the 2014-15 year. When he is not bouldering the History Corner of the Main Quad, he can be found making guacamole or seeking quality, affordable avocados. He hopes to retire in a condo atop the lush mountains of Hawaii, inspired by Spring Tour 2014, where he met a few senior citizens who have chosen this way of life and seem to be enjoying it.</bio>
+		<bio>Kenny is a junior majoring in Computer Science and Philosophy, and he is serving as Business Manager and Webmaster for the 2014-15 year. When he is not bouldering the History Corner of the Main Quad, he enjoys grocery shopping, trying exotic foods (anybody else ever have stir-fried water beetles?), and updating his trashy-2000s-R&amp;B/pop-music private playlist.
+		</bio> 
 		<solos>
 			<song>Too Close ('13 - '14)</song>
 			<song>If You're Out There ('13 - '14)</song>
@@ -285,7 +286,7 @@
 		<name>Tim Hegedus</name>
 		<gradYear>'17</gradYear>
 		<images>
-			<square>/images/members/member-no-picture.png</square>
+			<square>/images/members/tim-hegedus/tim-head.jpg</square>
 			<left>/images/members/member-no-picture-left.png</left>
 			<top>/images/members/member-no-picture-middle.png</top>
 			<bottom>/images/members/member-no-picture-middle.png</bottom>
@@ -297,7 +298,9 @@
 		<auditionSong>"Pompeii" by Bastille</auditionSong>
 		<favoriteMusicalArtists>_</favoriteMusicalArtists>
 		<quote>_</quote>
-		<bio>_</bio>
+		<bio>
+		Tim, a sophomore from THE GREAT FIRST STATE OF DELAWARE, is so excited to be coming back to the group in 2014-2015 to serve as Music Director. You can talk to him any time about politics, race, being a baritone in a co-ed group (not impossible!), making weird noises with your mouth (nothing quite like beatboxing), musical theater or sports. In his free time, you can find him binge-watching TV (Homeland, West Wing and House of Cards are some favorites) or sleeping. MIXEDCO4LYF. 
+		</bio>
 		<solos>
 			<song>Somebody to Love ('13 - '14)</song>
 			<song>Royals ('13 - '14)</song>
@@ -313,7 +316,7 @@
 		<name>John Welch</name>
 		<gradYear>'17</gradYear>
 		<images>
-			<square>/images/members/member-no-picture.png</square>
+			<square>/images/members/john-welch/john-head.jpg</square>
 			<left>/images/members/member-no-picture-left.png</left>
 			<top>/images/members/member-no-picture-middle.png</top>
 			<bottom>/images/members/member-no-picture-middle.png</bottom>
@@ -422,7 +425,7 @@
 		<name>Gus Wellin</name>
 		<gradYear>'15</gradYear>
 		<images>
-			<square>/images/members/member-no-picture.png</square>
+			<square>/images/members/gus-wellin/gus-head.jpg</square>
 			<left>/images/members/member-no-picture-left.png</left>
 			<top>/images/members/member-no-picture-middle.png</top>
 			<bottom>/images/members/member-no-picture-middle.png</bottom>

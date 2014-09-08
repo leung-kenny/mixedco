@@ -71,31 +71,33 @@ function makeMemberModal(modalId, member) {
 		'data-reveal': ''
 	});
 	// insert member titles
-	$modal.append($('<img/>').attr('src', member.photo));
-	$modal.append($('<h4/>').html(member.name + " " + member.gradYear));
-	$modal.append($('<h5/>').html(member.voicePart));
+	$modal.append($('<img/>').addClass('memberPhoto').attr('src', member.photo));
+	$modal.append($('<h4/>').addClass('name').html(member.name + " " + member.gradYear));
+	$modal.append($('<h5/>').addClass('voicePart').html(member.voicePart));
 	// insert member content
-	var $content = $('<div/>');
+	var $content = $('<div/>').addClass('memberContent');
 	$content.append($('<span/>').addClass('major').html('Major: ' + member.major));
 	$content.append($('<br/>'));
 	$content.append($('<span/>').addClass('hometown').html('Hometown: ' + member.hometown));
 	$content.append($('<br/>'));
-	$content.append($('<span/>').addClass('bio').html(member.bio));
+	$content.append($('<br/>'));
+	$content.append($('<div/>').addClass('bio').html(member.bio));
 	// insert member songs
 	/*var $songs = $('<ol/>').addClass('song-list').appendTo($content);
 	$.each(member.songs, function(index, title) {
 		$songs.append($('<li/>').addClass('song').html(title)); 
 	});*/
-
+	$content.append($('<a/>').addClass('close-reveal-modal').html('&#215;'));
 	return $modal.append($content);
 }
 
-var kNumElementsPerRow = 2;
+var kNumElementsPerRow = 3;
 function addToGrid(grid, arr) {
 	var $row = $('<div/>').addClass('row');
 	$.each(arr, function(i, obj) {
 		if (i % kNumElementsPerRow == 0 && i > 0) {
 			grid.append($row);
+			grid.append($('<br/>'));
 			$row = $('<div/>').addClass('row');
 		}
 		$row.append(obj.addClass("small-"+ parseInt(12/kNumElementsPerRow) + " columns"));

@@ -127,3 +127,30 @@ p {
 .leftLabel li div, .rightLabel.notranslate li div {
 	width: 50%;
 }
+
+div.member-grid img {
+	border-radius: 10px;
+}
+
+div.reveal-modal {
+	text-align: center;
+	background-color: #f3eedf;
+}
+
+div.reveal-modal .memberContent {
+	text-align: left;
+	padding: 10px;
+}
+
+div.reveal-modal .memberPhoto {
+	width: 40%;
+	border-radius: 10px;
+} 
+
+div.reveal-modal .name {
+	font-weight: bold;
+	background-color: #e6dbba;
+	padding: 2px 7px;
+	margin: 10px 0px;
+	border-radius: 10px;
+}
